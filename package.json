@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/faizulislamfair/API_Authentication_NodeJS/issues"
   },
-  "homepage": "https://github.com/faizulislamfair/API_Authentication_NodeJS#readme"
+  "homepage": "https://github.com/faizulislamfair/API_Authentication_NodeJS#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
 }
