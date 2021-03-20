@@ -5,6 +5,12 @@ POST http://localhost:3000/auth/login
 
 ### Register Route
 POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "email": "hibernatemonk@gmail.com",
+    "password": "kolakhabo"
+}
 
 ### Refresh Token Route
 POST http://localhost:3000/auth/refresh-token
