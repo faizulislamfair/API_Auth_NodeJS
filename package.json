@@ -19,6 +19,7 @@
   "homepage": "https://github.com/faizulislamfair/API_Authentication_NodeJS#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
