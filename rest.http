@@ -2,6 +2,13 @@ GET http://localhost:3000
 
 ### Login Route
 POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "ghum@gmail.com",
+    "password": "penguin_pakhi"
+}
+
 
 ### Register Route
 POST http://localhost:3000/auth/register
