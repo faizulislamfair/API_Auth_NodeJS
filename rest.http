@@ -1,5 +1,5 @@
 GET http://localhost:3000
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTcwMzgwNTgsImV4cCI6MTYxNzAzODA3MywiYXVkIjoiNjA1YTM4NGJlYTE0NWYzNzM4ODI3MTVmIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.SvOG17btSQ9XkKM2MjrZNBK9PSdRnFHr8VOEbeyCk1A
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTc2OTAxNTIsImV4cCI6MTYxNzY5MDE2NywiYXVkIjoiNjA1YTM4NGJlYTE0NWYzNzM4ODI3MTVmIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.Gh5XzFgOeOUxGKx5OtsCPejmytBmtHrHneTiztEyOdc
 
 ### Login Route
 POST http://localhost:3000/auth/login
@@ -16,7 +16,7 @@ POST http://localhost:3000/auth/register
 Content-Type: application/json
 
 {
-    "email": "ghumayegechi@gmail.com",
+    "email": "alright@gmail.com",
     "password": "penguin_pakhi"
 }
 
@@ -25,7 +25,7 @@ POST http://localhost:3000/auth/refresh-token
 Content-Type: application/json
 
 {
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTcwMzgxMDAsImV4cCI6MTY0ODU5NTcwMCwiYXVkIjoiNjA1YTM4NGJlYTE0NWYzNzM4ODI3MTVmIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ._0MwErqE2Gx9s9VHsWnWgHmP-QmyuiHP7gC-g8Oo_U0"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTc2OTAxMTksImV4cCI6MTY0OTI0NzcxOSwiYXVkIjoiNjA1YTM4NGJlYTE0NWYzNzM4ODI3MTVmIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.E4JVZ--DpH9w-ISmegrmQp0-I1LBfvAnUcWqsYdii98"
 }
 
 ### Logout Route
